@@ -11,7 +11,7 @@
 public class TestOperator01 {
 
 	public static void main(String[] args) {
-//		// TODO Auto-generated method stub
+
 //		byte b1 = 1;
 //		byte b2 = 2;
 //		short s1 = 3;
@@ -21,18 +21,18 @@ public class TestOperator01 {
 //		
 //		
 //		float f1 = 3.145F;
-//        float f2 = 4.123F;
-//        double d1 = 6.258;
-//        float f3 = f1 + f2;
-//        double d2 = f1 +d1;
+//      float f2 = 4.123F;
+//      double d1 = 6.258;
+//      float f3 = f1 + f2;
+//      double d2 = f1 +d1;
 //        
-//        /**
-//         * 自增和自减的测试
-//         */
-//        int a = 3;
-//        int b = ++a;
-//        System.out.println(a);//a先加，然后再赋值给b
-//        System.out.println(b);
+//      /**
+//       * 自增测试
+//      */
+//      int a = 3;
+//      int b = ++a;
+//      System.out.println(a);//a先加，然后再赋值给b
+//      System.out.println(b);
 //	    int a2 = 4;
 //	    int a3 = a2++;
 //	    System.out.println(a2);//首先将a2的值赋值给a3,然后a2再自加
