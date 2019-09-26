@@ -109,12 +109,17 @@ public class TestOperator01 {
 //		System.out.println(x);//13
 		
 		//attention4
-		int x = 5;
-		int y = 6;
-		x = ++x + x++;
-		System.out.println(x);//12
+//		int x = 5;
+//		int y = 6;
+//		x = ++x + x++;
+//		System.out.println(x);//12
 		
 		//complete:happy
+		boolean m = true;
+		if(m==false)
+			System.out.println("False");
+		else
+			System.out.println("True");
 	    	    
 	}
 
