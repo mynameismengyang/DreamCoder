@@ -28,7 +28,15 @@ public class TestOperator02 {
 		 * ¶ÌÂ·»ò||
 		 */
 		boolean d2 = 1<2 || 2<(3/0);
-		System.out.println(d2);//true
+		System.out.println(d2);//true+
+		
+		//char bb = '3';
+		String bb = "3";//String is ""
+		int nn = 4;
+		int cc = 5;
+		System.out.println(bb+nn+cc);
+		System.out.println(nn+cc+bb);
+		
 	}
 
 }
