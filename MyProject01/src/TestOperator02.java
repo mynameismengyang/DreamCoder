@@ -31,11 +31,14 @@ public class TestOperator02 {
 		System.out.println(d2);//true+
 		
 		//char bb = '3';
-		String bb = "3";//String is ""
+		String bb = "3";//String is ""字符串
+		char c1 = 'a'; //a 的 ASCII是 97，A 的 ASCII是65.
 		int nn = 4;
 		int cc = 5;
-		System.out.println(bb+nn+cc);
-		System.out.println(nn+cc+bb);
+		System.out.println(bb+nn+cc);//如果有字符串，+就是连接符
+		System.out.println(nn+cc+bb);//如果是数字就是加操作
+		System.out.println(bb+c1);
+		System.out.println(nn+c1);
 		
 		/**
 		 * 移位(shift)
@@ -43,8 +46,9 @@ public class TestOperator02 {
 		 */
 		int mul=3<<1;
 		System.out.println(mul);
-		int division= 21>>1;
+		int division= 20>>1;
 		System.out.println(division);
+		System.out.println("---------------取整操作--------------------");
 		
 		/**
 		 * 关系操作符(relational operator)
