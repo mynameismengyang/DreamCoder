@@ -17,11 +17,16 @@ public class TestTypeConverError {
 		long total2 = money*((long)year);
 		System.out.println(total2);
 		
-		long total3 = 34L*233*year*223423;
+		long total3 = ((long)money) * year;
 		System.out.println(total3);
+		long total4 = 34L*233*year*223423;
+		System.out.println(total4);
 		//命名问题
-		int l=2;//分不清是L还是1，
+		int l=2;//分不清是l还是1，
 		long a = 2345L;//建议使用大写L
+		
+		
+		
 		System.out.println(l+1);
 	}
 }
