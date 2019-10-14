@@ -6,7 +6,7 @@
  *
  */
 public class TestWhile {
-	public static void main() {
+	public static void main(String[] args) {
 		//计算1+2+3+.....+100的累加的和，5050
 		int sum = 0;
 		int i = 1;
