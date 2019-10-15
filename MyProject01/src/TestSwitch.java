@@ -18,7 +18,8 @@ public class TestSwitch {
 		}*/
 		
 		char c = 'a';
-		int rand = (int)(26 * Math.random());
+		int rand = (int)(c + 26 * Math.random());
+		System.out.println(rand);
 		char c2 = (char)rand; 
 		System.out.println(c2);
 
@@ -28,14 +29,14 @@ public class TestSwitch {
 		case 'i':
 		case 'o':
 		case 'u':
-			System.out.println("是元音！");
+			System.out.println(c2 + "是元音！");
 			break;
 		case 'y':
 		case 'w':
-			System.out.println("半元音！");
+			System.out.println(c2 + "半元音！");
 			break;
 		default:
-			System.out.println("这是辅音！");
+			System.out.println(c2 + "这是辅音！");
 			break;
 		}
 			
