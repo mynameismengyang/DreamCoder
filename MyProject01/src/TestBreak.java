@@ -1,5 +1,6 @@
 /**
  * 测试break,碰到break，整个循环结束
+ * continue退出本次循环
  * Math.round()是四舍五入的计算
  * Math.floor()向下取整
  * @author my
@@ -15,7 +16,7 @@ public class TestBreak {
 			System.out.println(i);
 			if(i == 88) {
 				break;//break就是退出整个循环
-				      //continue语句立刻跳到循环首部，越过当前循环的其余部分。
+				      //continue退出本次循环，语句立刻跳到循环首部，越过当前循环的其余部分。
 			}
 		}
 		//输出循环的次数
