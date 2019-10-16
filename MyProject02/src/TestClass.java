@@ -1,9 +1,10 @@
 /**
- * 类中包括属性和方法，主函数用来调用类的属性和方法
+ * 深入理解类
  * @author my
  *
  */
-public class SxStudent {
+
+public class TestClass {
 	//属性
 	int id;
 	String name;
@@ -19,11 +20,12 @@ public class SxStudent {
 	}
 	
 	//new 系统自动创建构造方法。方法名和类名一样
-	SxStudent(){
+	TestClass(){
 		
 	}
 	public static void main(String[] args) {
-		SxStudent stu = new SxStudent();//创建学习类的一个对象
+		TestClass stu = new TestClass();//创建学习类的一个对象
+		System.out.println(stu);
 		System.out.println(stu.age = 18);//调用并打印类中的属性
 		stu.play();//调用该类的玩方法
 		stu.study();//调用该类的学习方法
