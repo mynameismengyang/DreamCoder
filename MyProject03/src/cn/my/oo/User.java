@@ -15,8 +15,8 @@ import static java.lang.Math.*;
  */
 public class User {
 	public static void main(String[] args) {
-		System.out.println(PI);
-		UserOne u1 = new UserOne();
-		u1.tt();
+		Human h = new Human();
+		//h.age = 12;//
+		h.name = "无限";//同一个包中可以调用protected修饰的属性和方法
 	}
 }

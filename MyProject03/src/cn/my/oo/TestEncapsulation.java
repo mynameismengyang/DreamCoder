@@ -1,4 +1,9 @@
 package cn.my.oo;
+/**
+ * 私有可以修饰属性、方法和类
+ * @author my
+ *
+ */
 
 public class TestEncapsulation {
 	public static void main(String[] args) {
@@ -9,11 +14,11 @@ public class TestEncapsulation {
 }
 
 class Human{
-	private int age;
-	String name;
+	private int age;//私有方法：只能被自己类中访问
+	String name;//没有访问控制权限，就默认为protected
 	
 	void sayAge() {
-		System.out.println(age);
+		System.out.println(age);//自己类中的方法可以访问该类中的私有属性
 	}
 }
 
