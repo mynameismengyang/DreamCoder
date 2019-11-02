@@ -18,5 +18,6 @@ public class TestBubble {
 			}
 		}
 		System.out.println("*********************");
+		System.out.println(Arrays.toString(value));
 	}
 }
